@@ -7,19 +7,19 @@ const carausalContent = [
   {
     image: carausalImage1,
     text: "Unlock your True Freelance Potential with GIGSTHAN",
-    subtext: "Discover remote and flexible opportunities tailored to your skills.",
+    subtext: "Get Started",
     link: "/jobs",
   },
   {
     image: carausalImage2,
-    text: "Hire Top Freelancers Fast",
-    subtext: "Connect with verified professionals ready to bring your vision to life.",
+    text: "Find your Perfect Match with AI",
+    subtext: "Start Matchmaking",
     link: "/hire",
   },
   {
     image: carausalImage3,
     text: "Platform Updates and Enhancements",
-    subtext: "Build your brand, showcase your talent, and get hired globally.",
+    subtext: "Get Updates",
     link: "/career",
   },
 ];
@@ -51,11 +51,11 @@ export const Carausal = () => {
       key={index}
       className="w-screen h-full flex-shrink-0 flex items-center justify-evenly px-16 bg-gradient-to-r from-slate-100 to-white"
     >
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-evenly h-80">
             <h1 className="font-bold text-5xl w-96">{item.text}</h1>
-            <button className="p-2 px-4 w-32 bg-customOrange rounded text-customLightBlue">Get Started</button>
+            <button className="p-2 px-4 w-60 bg-customOrange rounded text-customLightBlue">{item.subtext}</button>
         </div>
-        <div className="object-contain w-96">
+        <div className="object-contain w-[30rem]">
             <img src={item.image} alt="" />
         </div>
       
