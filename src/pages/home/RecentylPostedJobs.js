@@ -44,6 +44,9 @@ export const RecentylPostedJobs = () => {
                 ))
             }
         </div>
+        <div className="flex justify-center my-6">
+            <button className="p-2 px-4 w-28 bg-customOrange rounded text-customLightBlue">View More</button>
+        </div>
     </div>
   )
 }

@@ -85,8 +85,8 @@ export const Carausal = () => {
           <button
             key={index}
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
-              index === current ? "bg-blue-600 scale-125" : "bg-gray-300"
+            className={`w-2 h-2 rounded-full transition-all ${
+              index === current ? "bg-customDarkBlue scale-125" : "bg-gray-300"
             }`}
           ></button>
         ))}

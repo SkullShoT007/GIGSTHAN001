@@ -3,6 +3,8 @@ import { Carausal } from "./Carausal";
 import { JobTypes } from "./JobTypes";
 import { HireCard } from "./HireCard";
 import { RecentylPostedJobs } from "./RecentylPostedJobs";
+import { Info } from "./Info";
+import { Footer } from "../../layouts/Footer";
 export const Home = () => {
   return (
     <div className="h-screen">
@@ -11,6 +13,8 @@ export const Home = () => {
       <JobTypes/>
       <HireCard/>
       <RecentylPostedJobs/>
+      <Info/>
+      <Footer/>
     </div>
       
     
